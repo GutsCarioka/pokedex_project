@@ -1,0 +1,21 @@
+Iniciar Server local : 
+Para termos um server local na nossa maquina para fazermos alguns testes nos instalamos a biblioteca de http 
+Codigo usado para instalar o Codigo: npm install -g http-server
+Codigo para ativar o HTTP : "http-server.cmd ./" Dentro da pasta que tem os arquivos que você vai querer executar 
+
+Normalize: 
+Um sistema Css Que auxilia a não ter divergencias de Css entre Navegadores impedindo que os sites só funcionem em um navegador especifico
+Utilizaremos o Normalize Css
+
+
+
+Atribuindo funçoes a um button usando Java Script: 
+ <button id="bntTeste" type="button">Teste</button>
+
+    <script>
+       const bntTeste = document.getElementById("bntTeste")
+       bntTeste.addEventListener("click", function(){
+        console.log("Esse Botão foi clicado")
+       })
+    </script>
+
